@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> project
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-chevron-circle-down" aria-hidden="true" onclick="showMenu()"></i>
+            </nav>
+
+           <h1>About US</h1>
+        </section>
+      
+        <section class="about-us">
+            <div class="row"> 
+                <div class="about-col">
+                <h1>we are the largest universityin the Worlds</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis molestias<br>
+                     praesentium architecto recusandae, temporibus, libero debitis accusantium vero
+                     <br>a dolorum dolores maiores repudiandae animi laudantium asperiores sit quia, culpa hic!
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis molestias<br>
+                     praesentium architecto recusandae, temporibus, libero debitis accusantium vero
+                     <br>a dolorum dolores maiores repudiandae animi laudantium asperiores sit quia, culpa hic!</p>
+                     <a href="" class="btn red-btn">EXPLORE NOW</a>
+                
+                </div>
+                <div class="about-col">
+                    <img src="about.jpg">
+                </div>
+            </div>
+
+        </section>
+
+    
+         <!--FOOTER-->
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.orporis velit rem
+                 <br> distinctio repellendus, id, corrupti molestias quam voluptatum,<br>
+                 nemo eos perferendis possimus! Consectetur nam id, architecto quidem earum minima.</p>
+                 <div class="icons">
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-snapchat"></ion-icon></a>
+                    
+                 </div>
+                 <P>Made with<i class="fa fa-heart-o"></i>by Ashok kumar Sah</P>
+
+         </section>
+
+         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js">
+            var navlinks=document.getElementById("navlinks")
+            function showMenu(){
+                navLinks.style.right="0"
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px"
+            }
+        </script>
+
+    </body>
+</html>

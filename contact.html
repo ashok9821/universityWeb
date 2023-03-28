@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> project
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                    
+                </div>
+                <i class="fa fa-chevron-circle-down" aria-hidden="true" onclick="showMenu()"></i>
+            </nav>
+
+           <h1>Contact US</h1>
+        </section>
+        <!---CONTACT SECTION-->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.7173108490488!2d73.36123171487696!3d22.28869578532963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fda2400192473%3A0xc319c9237f2928e8!2sParul%20University!5e0!3m2!1sen!2sin!4v1676446917539!5m2!1sen!2sin"
+             width="600" height="450" 
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>wagodiya Road,Parul university</h5>
+                            <p>Vadodara,Gujarat,India</p>
+                        </span> 
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+91 9122435529</h5>
+                            <p>sunday to saturday</p>
+                        </span> 
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>guptaking308@gmail.com</h5>
+                            <p>Email us for any query</p>
+                        </span> 
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="form-control.php" method="post">
+                        <input type="text" placeholder="Enter your name" required="" name="name">
+                        <input type="email" placeholder="Enter your email" required="" name="email">
+                        <input type="text" placeholder="Enter your subject" required="" name="subject">
+                        <textarea  rows="8" placeholder=" write your message" name="message"></textarea>
+                        <button type="submit" class="btn red-btn">Send message</button>
+
+
+                    </form>
+
+
+
+
+
+                </div>
+            </div>
+        </section>
+      
+       
+
+    
+         <!--FOOTER-->
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.orporis velit rem
+                 <br> distinctio repellendus, id, corrupti molestias quam voluptatum,<br>
+                 nemo eos perferendis possimus! Consectetur nam id, architecto quidem earum minima.</p>
+                 <div class="icons">
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-snapchat"></ion-icon></a>
+                    
+                 </div>
+                 <P>Made with<i class="fa fa-heart-o"></i>by Ashok kumar Sah</P>
+
+         </section>
+
+         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js">
+            var navlinks=document.getElementById("navlinks")
+            function showMenu(){
+                navLinks.style.right="0"
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px"
+            }
+         </script>
+
+    </body>
+</html>
